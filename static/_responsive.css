@@ -1,0 +1,26 @@
+@media (max-width: 800px) {
+    .container {
+        width: 90%;
+        margin-top: -40px;
+    }
+
+    #emojis-container {
+        gap: 5px;
+        max-height: calc(100vh - 500px);
+    }
+
+    img {
+        width: 80%;
+        padding: 8px;
+    }
+
+    #bio {
+        font-size: 12px;
+    }
+
+    select {
+        padding-right: 40px;
+        font-size: 12px;
+        background-position: calc(100% - 4px) center;
+    }
+}
